@@ -72,9 +72,6 @@ CREATE TABLE IF NOT EXISTS `membre` (
 --
 
 INSERT INTO `membre` (`mail`, `mdp`, `reduction`) VALUES
-('benjamin-hini@hotmail.fr', 'shw0o25p', 0.4),
-('raphael.lavergne@gmail.com', 'jaimeleluxe', 0.4),
-('maxim.mangel@gmail.com', 'aled', 0.4),
 ('jldr24@orange.fr', 'onestla', 0),
 ('aug.lumiere@yahoo.fr', 'cheese', 0.2),
 ('hatsune.miku@nihon.jpn', 'loli', 0.3),
