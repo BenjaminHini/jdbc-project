@@ -51,7 +51,6 @@ INSERT INTO `films` (`name`, `genre`, `image`, `releaseDate`, `runningTime`, `nb
 ('le seigneur des anneaux : la communaute de l\'anneau ', 'fantastique', 'image/LSD(red).jpg', '2001-12-19', 178, 26),
 ('whiplash', 'drame/musical', 'image/whiplash(red).jpg', '2014-12-24', 107, 79),
 ('Pokemon Detective Pikachu', 'action/aventure', 'image/detectivePikachu(red).jpg', '2019-05-08', 105, 13),
-('', NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -99,25 +98,25 @@ CREATE TABLE IF NOT EXISTS `ticket` (
 --
 
 INSERT INTO `ticket` (`nomFilm`, `mailClient`, `dateVu`, `prix`, `nombre`) VALUES
-('SHREK 3', 'raphael.lavergne@gmail.com', '2020-11-30', 7.6, 1),
-('whiplash', 'raphael.lavergne@gmail.com', '2020-11-30', 7.6, 1),
-('pirates des caraibes : jusqu\'au bout du monde', 'benjamin-hini@hotmail.fr', '2020-11-29', 9, 3),
-('whiplash', 'benjamin-hini@hotmail.fr', '2020-12-03', 1.7999999999999998, 1),
-('SHREK 3', 'raphael.lavergne@gmail.com', '2020-12-03', 9, 4282),
-('pirates des caraibes : jusqu\'au bout du monde', 'maxim.mangel@gmail.com', '2020-12-03', 163.8, 26),
-('whiplash', 'benjamin-hini@hotmail.fr', '2020-12-03', 18, 2),
-('pirates des caraibes : jusqu\'au bout du monde', 'benjamin-hini@hotmail.fr', '2020-12-04', 252, 28),
-('whiplash', 'benjamin-hini@hotmail.fr', '2020-12-04', 135, 3),
-('whiplash', 'maxim.mangel@gmail.com', '2020-12-04', 6.300000000000001, 1),
-('SHREK 3', 'johanna.hini@gmail.com', '2020-12-04', 18, 2),
-('Pokemon Detective Pikachu', 'raphael.lavergne@gmail.com', '2020-12-04', 16.200000000000003, 3),
-('OSS 117 : Le Caire Nid D\'espion', 'benjamin-hini@hotmail.fr', '2020-12-04', 4.5, 1),
-('Pokemon Detective Pikachu', 'benjamin-hini@hotmail.fr', '2020-12-04', 10.799999999999999, 3),
-('OSS 117 : Le Caire Nid D\'espion', 'benjamin-hini@hotmail.fr', '2020-12-08', 18, 2),
-('Pokemon Detective Pikachu', 'maxim.mangel@gmail.com', '2020-12-04', 5.4, 1),
-('OSS 117 : Le Caire Nid D\'espion', 'benjamin-hini@hotmail.fr', '2020-12-08', 5.4, 1),
-('Pokemon Detective Pikachu', 'benjamin-hini@hotmail.fr', '2020-12-08', 27, 3),
-('Pokemon Detective Pikachu', 'benjamin-hini@hotmail.fr', '2020-12-08', 5.4, 1);
+('SHREK 3', 'francis.dupond@gmail.com', '2020-11-30', 7.6, 1),
+('whiplash', 'francis.dupond@gmail.com', '2020-11-30', 7.6, 1),
+('pirates des caraibes : jusqu\'au bout du monde', 'hugues8@hotmail.fr', '2020-11-29', 9, 3),
+('whiplash', 'hugues8@hotmail.fr', '2020-12-03', 1.7999999999999998, 1),
+('SHREK 3', 'francis.dupond@gmail.com', '2020-12-03', 9, 4282),
+('pirates des caraibes : jusqu\'au bout du monde', 'tomtom@gmail.com', '2020-12-03', 163.8, 26),
+('whiplash', 'hugues8@hotmail.fr', '2020-12-03', 18, 2),
+('pirates des caraibes : jusqu\'au bout du monde', 'hugues8@hotmail.fr', '2020-12-04', 252, 28),
+('whiplash', 'hugues8@hotmail.fr', '2020-12-04', 135, 3),
+('whiplash', 'tomtom@gmail.com', '2020-12-04', 6.300000000000001, 1),
+('SHREK 3', 'lena.hiquer@gmail.com', '2020-12-04', 18, 2),
+('Pokemon Detective Pikachu', 'francis.dupondlavergne@gmail.com', '2020-12-04', 16.200000000000003, 3),
+('OSS 117 : Le Caire Nid D\'espion', 'hugues8@hotmail.fr', '2020-12-04', 4.5, 1),
+('Pokemon Detective Pikachu', 'hugues8@hotmail.fr', '2020-12-04', 10.799999999999999, 3),
+('OSS 117 : Le Caire Nid D\'espion', 'hugues8@hotmail.fr', '2020-12-08', 18, 2),
+('Pokemon Detective Pikachu', 'tomtom@gmail.com', '2020-12-04', 5.4, 1),
+('OSS 117 : Le Caire Nid D\'espion', 'hugues8@hotmail.fr', '2020-12-08', 5.4, 1),
+('Pokemon Detective Pikachu', 'francis.dupons@hotmail.fr', '2020-12-08', 27, 3),
+('Pokemon Detective Pikachu', 'tomtom@hotmail.fr', '2020-12-08', 5.4, 1);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
